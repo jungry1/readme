@@ -20,8 +20,7 @@ After installing the libraries, I connected to the server platform. To use the N
 
 ![image](https://github.com/jungry1/readme/assets/66970973/5a4e4ac0-701a-46a4-b984-b1b1c5f02f52)
 
-![image](https://github.com/jungry1/readme/assets/66970973/f6936132-164c-4b8b-9711-8645c1473e4a)
-
+![image](https://github.com/jungry1/readme/assets/66970973/1147c9ea-96fb-4bce-b9b4-964d987d3a53)
 
 Then, using the same commands on the client, we connect to the frontend (Hacettepe campus).
 
@@ -42,7 +41,9 @@ Before pulling the code in Postgresql, you need to update your localhost informa
 I updated the code with the app.get command to pull the table in Postgresql.
 ![image](https://github.com/jungry1/readme/assets/66970973/89c11f91-66c1-4c59-8b4e-0cc3f9e0d161)
 
-![image](https://github.com/jungry1/readme/assets/66970973/1147c9ea-96fb-4bce-b9b4-964d987d3a53)
+![image](https://github.com/jungry1/readme/assets/66970973/f6936132-164c-4b8b-9711-8645c1473e4a)
+
+
 
 
 
