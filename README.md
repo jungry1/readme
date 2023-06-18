@@ -41,7 +41,7 @@ Before pulling the code in Postgresql, you need to update your localhost informa
 I updated the code with the app.get command to pull the table in Postgresql.
 ![image](https://github.com/jungry1/readme/assets/66970973/89c11f91-66c1-4c59-8b4e-0cc3f9e0d161)
 
-![image](https://github.com/jungry1/readme/assets/66970973/f6936132-164c-4b8b-9711-8645c1473e4a)
+
 
 
 
