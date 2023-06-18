@@ -41,6 +41,22 @@ Before pulling the code in Postgresql, you need to update your localhost informa
 I updated the code with the app.get command to pull the table in Postgresql.
 ![image](https://github.com/jungry1/readme/assets/66970973/89c11f91-66c1-4c59-8b4e-0cc3f9e0d161)
 
+The ChangeView component is a custom component that takes care of changing the map view based on different scenarios. It receives center, zoom, bounds, and selectedBuilding as props and uses the useMap hook from react-leaflet to access the map instance. Inside the useEffect hook, it checks for different conditions and updates the map view accordingly. The MapComponent component is the main component that renders the map. It receives routeGeometry, userLat, userLng, and selectedBuilding as props. The center and zoom variables define the initial center and zoom level of the map. The routePositions variable maps the routeGeometry array to convert each coordinate from [longitude, latitude] format to [latitude, longitude] format. The campusBounds variable defines the latitude and longitude data of the lower right and upper left points of the bounding box that will be added to the map. The bounds variable uses the L.latLngBounds function from Leaflet to create a bounds object based on the routePositions and campusBounds. This bounds object is used to fit the map view to the specified bounds. The startPosition and endPosition variables store the first and last positions of the routePositions array, respectively. The startIcon, endIcon, currentLocationIcon, and binaIcon variables define custom icons for the markers on the map. Inside the return statement, the MapContainer component from react-leaflet is used to render the map. It receives the center and zoom props, as well as a style prop for setting the width and height of the map. The ChangeView component is rendered as a child of MapContainer, passing the necessary props. The TileLayer component renders the tile layer of the map using a URL from OpenStreetMap. If routePositions has at least one position, a Polyline component is rendered to draw the route on the map.
+
+![image](https://github.com/jungry1/readme/assets/66970973/51be130b-0b53-43c8-9af9-a7d388d8ef90)
+
+![image](https://github.com/jungry1/readme/assets/66970973/7aa050ca-2c57-4bf8-909b-a7f045f7c3da)
+
+![image](https://github.com/jungry1/readme/assets/66970973/ee94c8ff-1a37-4325-a448-1f522c80d530)
+
+# Output of Bounding Box in localhost client
+
+![image](https://github.com/jungry1/readme/assets/66970973/914660fe-02af-431b-af93-9328f7467522)
+
+
+
+
+
 
 
 
