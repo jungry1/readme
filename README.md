@@ -20,10 +20,7 @@ After installing the libraries, I connected to the server platform. To use the N
 
 ![image](https://github.com/jungry1/readme/assets/66970973/5a4e4ac0-701a-46a4-b984-b1b1c5f02f52)
 
-![image](https://github.com/jungry1/readme/assets/66970973/1147c9ea-96fb-4bce-b9b4-964d987d3a53)
-
 Then, using the same commands on the client, we connect to the frontend (Hacettepe campus).
-
 
 ## BOUNDING BOX IN QGIS 
 In QGIS, a bounding box refers to a rectangular area that defines the spatial extent of a geographic feature or a set of features. It is represented by four coordinates: the minimum and maximum values for both the x-axis (longitude or easting) and the y-axis (latitude or northing). 
